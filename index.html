@@ -1,15 +1,21 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <title>Profile Page</title>
 </head>
-<body align = "center">
+<body align = "center" style="background-color:lightblue">
     <header align = "center"><h1>Profile Page</h1></header>
     <img src ="https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg?w=2000"
-     width="180" height = "175" />
-    
+     width="180" height = "175" style="border-radius:50%" download/>
+     <figcaption>Sample photo</figcaption>
+    <!-- Image (<img>), anchor(<a>), table(<table>,<tr>,<td>), list (<li>,<ol>) tags used. 
+        
+        In formatting tags :  <b>,<u>,<i> used
+            In Semantic tags :  header, footer,article used
+            Additional tags : cite,figcaption -->
     <table align = "center">
-        <h2><u>Personal Details</u></h2>
+        <h2><u><i>Personal Details</i></u></h2>
         <tr>
             <td><b>Name</b></td>
             <td>Devesh Rahatekar</td>
@@ -40,9 +46,12 @@
             <td>
                 <details>
             <ul>
-                <li>Got swags for completing Google Cloud Facilitator Program</li>
+                <article>
+                <li>Got swags for completing <cite>Google Cloud Facilitator Program</cite></li>
                 <li>Took part in few <mark>Open Source Organizations</mark></li>
-            </ul></details>
+            </article>
+            </ul>
+        </details>
         </td>
         </tr>
         <tr>

@@ -2,19 +2,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Profile Page</title>
+    <title>Profile Page</title>   
+     <link rel = "stylesheet" href = "expt1a.css"> <!--External CSS Inclusion-->
 </head>
-<body align = "center" style="background-color:lightblue">
+
+<body>
+    
     <header align = "center"><h1>Profile Page</h1></header>
     <img src ="https://img.freepik.com/premium-photo/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position_1368-132662.jpg?w=2000"
-     width="180" height = "175" style="border-radius:50%" download/>
-     <figcaption>Sample photo</figcaption>
+     width="180" height = "175" download/>
+     
+     <figcaption style="font-size:small">Sample photo</figcaption>
     <!-- Image (<img>), anchor(<a>), table(<table>,<tr>,<td>), list (<li>,<ol>) tags used. 
         
         In formatting tags :  <b>,<u>,<i> used
             In Semantic tags :  header, footer,article used
             Additional tags : cite,figcaption -->
-    <table align = "center">
+    <table>
         <h2><u><i>Personal Details</i></u></h2>
         <tr>
             <td><b>Name</b></td>
@@ -64,11 +68,11 @@
         </tr>
     </table>
 <section>
-    <p><b>Audio</b></p>
+    <h3 id="audio" target="_Audio">Audio</h3>
     <audio controls><source src="https://www.learningcontainer.com/wp-content/uploads/2020/02/Sample-OGG-File.ogg" type="audio/mpeg">
    
     </audio>
-    <h3>Video</h3>
+    <h3 class="video">Video</h3>
     <video width="200" height="200" controls> <source src="video.mp4" type="video/mp4"></video>
 </section>
    <footer>Contact Us</footer>
